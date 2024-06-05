@@ -1,7 +1,62 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+function moreThan5(num){
+  return num > 5
 
+}
+
+function isNewTopScore(num, num2){
+return num > num2
+}
+
+function isInDanger(num){
+return num >= 60 && num <= 71
+}
+
+function isCoasting(num){
+  return num >= 72 && num <= 83
+}
+
+function isSucceeding(num){
+  return num >= 84 && num <= 92
+}
+
+function isFailing(num){
+return num < 60
+}
+
+function isAcing(num){
+  return num > 92
+}
+
+function isStudent(str){
+  return str === "student"
+}
+
+function isTeacher(str){
+  return str === "teacher"
+}
+
+function isAdmin(str){
+  return str === "admin"
+}
+
+function isElementary(str){
+  return str === "elementary"
+}
+
+function areDifferentPeople(str, str2){
+return str !== str2
+}
+
+function isMiddleSchoolTeacher(str, num){
+return str === "teacher" && num >=6 && num <=8
+}
+
+function notAnElementarySchoolAdministrator(str, str2){
+  return str !== "elementary" || str2 !== 'admin'
+}
 
 
 /********************************************************************************************
