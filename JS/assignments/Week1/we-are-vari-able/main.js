@@ -1,7 +1,17 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
-
+let myFirstName ="Traci"
+let myLastName ="Mcfall"
+let myFavoriteCeleb ="Zack Bryan"
+let mySentence ="none"
+let myLuckyNum = 13
+let myAge = 31
+let myHeight = 62
+ let myFavoriteYear = 2009
+ let mySum = 5 + 2317 + 36
+ let myProduct = 232 * 43 / 2 + 4
+ let myHeightAndAge = 31 + 62
 
 /*********************************************************************************************************************
 
