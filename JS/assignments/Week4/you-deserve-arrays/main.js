@@ -1,6 +1,14 @@
 /******************
  * YOUR CODE HERE *
- ******************
+ ******************/
+
+function getFirstItemFrom(arr){
+  return arr[0]
+}
+
+function getLastItemFrom(arr){
+  return arr[arr.length -1]
+}
 
 
 

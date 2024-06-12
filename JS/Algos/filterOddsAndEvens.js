@@ -12,16 +12,17 @@
 
 
 
-function filterOddsAndEvens(arr){
+function filterOddsAndEvens(arr, arr2){
     for(let i = 0; i < arr.length; i ++){
         if(arr[i] % 2 === 0){
-            console.log(arr[i])
+            //console.log(arr[i])
         }
-} for(let i = 0; i < arr.length; i++){
-    if(arr[i] % 2 !== 0){
-        console.log(arr[i])
+ } for(let i = 0; i < arr2.length; i++){
+    if(arr2[i] % 2 !== 0){
+        //console.log(arr2[i])
+        console.log(arr[i], arr2[i])
     }
-}
+ }
 }
 
 
