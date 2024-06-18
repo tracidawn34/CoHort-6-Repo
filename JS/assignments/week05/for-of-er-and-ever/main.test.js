@@ -1,6 +1,90 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const addAll = function(arr){
+  let total = 0
+
+for(let num of arr){
+total += num
+}
+return total
+}
+const countSpaces = function(str){
+let space = 0
+  for(let char of str){
+    if(char === " "){
+space = space + 1
+    }
+  
+}
+return space
+}
+
+const countTrues = function(arr){
+  let trues = 0
+for(let boolean of arr){
+  if(boolean === true){
+  trues = trues +1
+  }
+}
+return trues
+}
+
+const makeFriendly = function(str){
+let newStr = ''
+for( let char of str){
+  if(char === '.'){
+    newStr = newStr + '!'
+  } else{
+    newStr = newStr + char
+  }
+}
+return newStr
+}
+ 
+
+const cubeAll = function(arr){
+  let newArr = [];
+  for(let i of arr){
+    newArr.push(i ** 3);
+  }
+  return newArr;
+}
+
+
+const addNoises = function(arr){
+  noisyArr = []
+  for(let animal of arr){
+    if(animal === 'Fido' && animal === 'Rolph' && animal === 'Maisie'){
+      noisyArr.push(animal + ' says "Woof!"')
+    }else if(animal === 'Garfield' || animal === 'Heathcliff'){
+      noisyArr.push(animal + 'says "Meow!"')
+    }else if(animal === 'Barnie' || animal=== 'Sharp Tooth'){
+noisyArr.push(animal + 'says "ROWR."')
+    }
+  }
+  return noisyArr
+}
+
+const womenOnly = function(arr){
+const women = []
+for( let person of arr){
+  if(person[person.length -1] === 'F'){
+    women.push(person)
+  }
+}
+return women
+}
+
+const integersOnly = function(arr){
+  let integers = []
+  for(let num of arr){
+    if(num % 1 === 0){
+      integers.push(num)
+    }
+  }
+  return integers 
+}
 
 
 /*********************************
@@ -42,14 +126,7 @@ if (typeof integersOnly === 'undefined') {
 }
 
 const assert = require('assert');
-const {
-  addAll,
-  countSpaces,
-  countTrues,
-  makeFriendly,
-  cubeAll,
-  addNoises,
-} = require('./your-functions'); // Import your functions
+ // Import your functions
 
 describe('addAll', () => {
   it(`adds all the numbers in the array`, () => {
